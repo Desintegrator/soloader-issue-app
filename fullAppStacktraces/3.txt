@@ -1,0 +1,24 @@
+this stacktrace is from full app, not sample
+
+0,01 % of devices experiencing such crash
+not so important
+
+java.lang.UnsatisfiedLinkError at (Unknown Source)
+com.facebook.soloader.SoLoader.c
+
+java.lang.UnsatisfiedLinkError: couldn't find DSO to load: libhermes.so
+	SoSource 0: com.facebook.soloader.a[root = /data/data/app.bundleid/lib-main flags = 1]
+	SoSource 1: com.facebook.soloader.c[root = /data/app/app.bundleid-1/lib/x86 flags = 0]
+	SoSource 2: com.facebook.soloader.c[root = /system/vendor/lib flags = 2]
+	SoSource 3: com.facebook.soloader.c[root = /system/lib flags = 2]
+	Native lib dir: /data/app/app.bundleid-1/lib/x86
+ result: 0
+	at com.facebook.soloader.SoLoader.c(Unknown Source)
+	at com.facebook.soloader.SoLoader.n(Unknown Source)
+	at com.facebook.soloader.SoLoader.m(Unknown Source)
+	at com.facebook.soloader.SoLoader.k(Unknown Source)
+	at com.facebook.soloader.SoLoader.j(Unknown Source)
+	at com.facebook.hermes.reactexecutor.HermesExecutor.<clinit>(Unknown Source)
+	at com.facebook.hermes.reactexecutor.a.create(Unknown Source)
+	at com.facebook.react.p$f.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:761)

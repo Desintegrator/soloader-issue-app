@@ -1,0 +1,9 @@
+{
+    "js_comp_name" : "TestApp",
+    "application_id" : "test.app",
+    "app_version_name" : "1.0.1",
+    "android_version_code" : 1,
+    "app_version_suffix" : "-prod",
+    "android_sign" : true,
+    "build_mode" : "prod"
+}

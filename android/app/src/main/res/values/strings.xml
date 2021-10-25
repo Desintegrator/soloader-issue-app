@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Test.App</string>
+    <string name="linking_label">Test.App</string>
+    <string name="appmetrica_api_key" translatable="false">be0ede0e-f03e-4fe4-a5ac-a3556da9b34f</string>
+    <string name="facebook_app_id" translatable="false">2612507413673248</string>
+</resources>

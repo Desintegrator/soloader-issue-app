@@ -1,0 +1,36 @@
+this stacktrace is from full app, not sample
+
+0,03 % of devices experiencing such crash
+looks same like at 1.txt
+
+java.io.IOException at (Unknown Source)
+com.facebook.soloader.g.<init>
+
+java.lang.RuntimeException: Unable to create application app.bundleid.MainApplication: java.lang.RuntimeException: java.io.IOException: Resource deadlock would occur
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:5943)
+	at android.app.ActivityThread.-wrap2(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1784)
+	at android.os.Handler.dispatchMessage(Handler.java:110)
+	at android.os.Looper.loop(Looper.java:232)
+	at android.app.ActivityThread.main(ActivityThread.java:6806)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1103)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:964)
+Caused by: java.lang.RuntimeException: java.io.IOException: Resource deadlock would occur
+	at com.facebook.soloader.SoLoader.f(Unknown Source)
+	at app.bundleid.MainApplication.onCreate(Unknown Source)
+	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1024)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:5940)
+	... 8 more
+Caused by: java.io.IOException: Resource deadlock would occur
+	at sun.nio.ch.FileDispatcherImpl.lock0(Native Method)
+	at sun.nio.ch.FileDispatcherImpl.lock(FileDispatcherImpl.java:99)
+	at sun.nio.ch.FileChannelImpl.lock(FileChannelImpl.java:1026)
+	at java.nio.channels.FileChannel.lock(FileChannel.java:875)
+	at com.facebook.soloader.g.<init>(Unknown Source)
+	at com.facebook.soloader.g.a(Unknown Source)
+	at com.facebook.soloader.n.b(Unknown Source)
+	at com.facebook.soloader.SoLoader.h(Unknown Source)
+	at com.facebook.soloader.SoLoader.e(Unknown Source)
+	at com.facebook.soloader.SoLoader.init(Unknown Source)
+	... 12 more
