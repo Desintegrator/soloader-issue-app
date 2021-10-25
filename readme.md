@@ -9,10 +9,15 @@ This sample just load test screen with webrtc local video init (without transmit
 ## this is ReactNative app ##
 
 1. Install nodejs and npm (I have nodejs 14.5.1 and npm 6.14.9)
+
 2. $ npm install -g react-native-cli
+
 3. projectRoot$ npm install
+
 4.1 projectRoot/android$ ./gradlew assembleRelease // make release build
+
 4.2.1 projectRoot/android$ ./gradlew installDebug // make and install on device development build
+
 4.2.2 projectRoot$ npm run start // run devserver
 
 more info: https://reactnative.dev/docs/getting-started
