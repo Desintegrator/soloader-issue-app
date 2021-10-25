@@ -14,10 +14,12 @@ This sample just load test screen with webrtc local video init (without transmit
 
 3. projectRoot$ npm install
 
-4.1 projectRoot/android$ ./gradlew assembleRelease // make release build
+4.1 projectRoot/android$ ./gradlew assembleRelease // make release apk
 
-4.2.1 projectRoot/android$ ./gradlew installDebug // make and install on device development build
+4.2 projectRoot/android$ ./gradlew bundleRelease // make release aab
 
-4.2.2 projectRoot$ npm run start // run devserver
+4.3.1 projectRoot/android$ ./gradlew installDebug // make and install on device development build
+
+4.3.2 projectRoot$ npm run start // run devserver
 
 more info: https://reactnative.dev/docs/getting-started
