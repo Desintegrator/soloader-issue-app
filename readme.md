@@ -18,7 +18,7 @@ This sample just load test screen with webrtc local video init (without transmit
 
 4.2 projectRoot/android$ ./gradlew bundleRelease // make release aab
 
-4.3.1 projectRoot/android$ ./gradlew installDebug // make and install on device development build
+4.3.1 projectRoot/android$ ./gradlew installDebug // make and install development build on device
 
 4.3.2 projectRoot$ npm run start // run devserver
 
