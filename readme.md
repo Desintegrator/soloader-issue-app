@@ -1,6 +1,6 @@
 ## soloader-issues ##
 
-Sample app for soloader issues
+Sample app for soloader [app bundle issue](https://github.com/facebook/SoLoader/issues/76)
 
 I don't know how to reproduce it. It happens within 2-3% of users. Seems like not much but has large impact for app rating at stores
 
